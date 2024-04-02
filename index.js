@@ -19,7 +19,7 @@ app.use(function (req, res, next) {
 
 app.use(passport.initialize());
 
-let port = process.env.PORT || 2410;
+let port = process.env.PORT || 2410 ;
 app.listen(port, () => console.log(`Node app is listening on port ${port}!`));
 
 const jwt_key = "jwtsecret993862";
